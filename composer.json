@@ -1,0 +1,26 @@
+{
+    "name": "phpfun/lim",
+    "description": "less is more",
+    "type": "project",
+    "keywords": [
+        "lim",
+        "phpfun"
+    ],
+    "homepage": "https://www.175.run/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "WayrenChen",
+            "email": "7871399@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "phpfun/helper": "dev-master"
+    },
+    "autoload": {
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
