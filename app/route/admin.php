@@ -8,12 +8,21 @@ class admin extends \lim\Router
 {
 
 	protected $rule = [
-		'tt' => [
-			// 'id' => 'required',
+		'register' => [
+			'账号|account' => 'required|string',
+			'密码|password' => 'required|string',
+			'名称|name' => 'string',
+		],
+		'login' => [
+			'账号|account' => 'required|string',
+			'密码|password' => 'required|string',
 		],
 	];
 
-	protected $call = ['a' => 4];
+	protected $call = [
+		'register' => [\app\model\Admin::class, 'register'],
+		'login' => [\app\model\Admin::class, 'login'],
+	];
 
 	public function tt($value = '') {
 
