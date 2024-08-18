@@ -18,10 +18,5 @@
         "php": ">=8.0.0",
         "phpfun/helper": "dev-master",
         "topthink/think-orm": "^3.0"
-    },
-    "autoload": {
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }
