@@ -24,9 +24,4 @@ class Admin extends \think\facade\Model {
 		return ['token' => token($tokenData), 'info' => $user->toArray()];
 	}
 
-	public static function userInfo() {
-		$user = self::where('id', user()['id'])->find();
-		return $user->toArray();
-	}
-
 }

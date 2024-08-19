@@ -2,3 +2,4 @@
 /public/*
 !/public/index.php
 /runtime/*
+composer.lock
