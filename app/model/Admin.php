@@ -1,7 +1,7 @@
 <?php
 namespace app\model;
 
-class Admin extends Base {
+class Admin extends \think\facade\Model {
 
 	protected $field = ['id', 'account', 'password', 'last_login'];
 
